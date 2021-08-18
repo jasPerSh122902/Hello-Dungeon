@@ -17,9 +17,9 @@ namespace Hello_Dungeon
             int stamana = 4;
 
             //damage
-            int damagePhysical;
+            int damagePhysical = 5;
                 {
-                if (damagePhysical = true) ;
+                bool (damagePhysical = true) ;
                 }
             Console.WriteLine("You have dealt 1 physical damage");
             Console.WriteLine("You have dealt 2 magical damage");
