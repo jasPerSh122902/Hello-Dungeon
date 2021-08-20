@@ -10,20 +10,29 @@ namespace Hello_Dungeon
         {
 
             //Health and Health Regon
+            string characterJob = "job";
             string name = "Empty";
             int healthRegon = 0;
             int intellignece = 6;
+            string name = "Empty";
+            name = Console.ReadLine();
+            string input = Console.ReadLine();
+            
+            bool validinputreseive = true;
+            input="";
 
-            Console.WriteLine("1.Knight");
-            Console.WriteLine("2.Wizard");
-            Console.ReadLine();
-
-
-            while
+            while (validinputreseive == true)
             {
-                if name == "1";
+                Console.WriteLine("Pick a job!");
+                Console.WriteLine("1.Knight");
+                Console.WriteLine("2.Wizard");
+                Console.Write(">");
+                input = Console.ReadLine();
+                if (input == "1" \\ "Knight");
                 {
                     //the two caractors that are in the game
+                    input = Console.ReadLine();
+                    characterJob = "wizard";
                     int health = 15;
                     int damage = 3;
                     int stamana = 10;
