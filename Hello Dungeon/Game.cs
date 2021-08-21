@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -32,7 +32,7 @@ namespace Hello_Dungeon
                 Console.Write(">");
                 input = Console.ReadLine();
                 //input for the job changing and other states.
-                if (input == "1")
+                if (input == "1" || input == "Wizard")
                 //The Characters states and titles.
                 {
                     validinputreseive = false;
@@ -43,7 +43,7 @@ namespace Hello_Dungeon
 
                 }
                 //Other character title and states.
-                else if (input == "2")
+                else if (input == "2" || input == "Knight")
                 {
                     validinputreseive = false;
                     input = Console.ReadLine();
@@ -63,6 +63,7 @@ namespace Hello_Dungeon
                 }
             }
 
+            //this is the CHARACTOR STATS 
             Console.WriteLine("Your Characer Stats");
             Console.WriteLine("job " + characterJob);
             Console.WriteLine("name " + name);
@@ -88,6 +89,7 @@ namespace Hello_Dungeon
                     Console.ReadKey();
                     Console.ReadLine();
                     Console.WriteLine("Congrats you smart peson now ,get the big dollar");
+                    break;
                 }
                 else
                 {
@@ -98,18 +100,16 @@ namespace Hello_Dungeon
                 }
             }
 
-            Console.ReadLine();
-            Console.WriteLine("As you watch the moneky trying to speek it silenced my the old man and they walk away.");
-            Console.WriteLine("You look and watch them walk away you realize they have no BIG MONEY and now you have wasted time to you start watlking.");
-            Console.WriteLine("You see a very small creature not even the size of a rabbit");
-            Console.WriteLine("1.Do you attack it");
-            Console.WriteLine("2. leave the poor creature alone");
 
             for (int i = 0; i < numberOfAttempts; i--)
             {
+                Console.ReadLine();
                 Console.WriteLine("As you watch the moneky trying to speek it silenced my the old man and they walk away.");
                 Console.WriteLine("You look and watch them walk away you realize they have no BIG MONEY and now you have wasted time to you start watlking.");
                 Console.WriteLine("You see a very small creature not even the size of a rabbit");
+                Console.WriteLine("1.Do you attack it");
+                Console.WriteLine("2. leave the poor creature alone");
+
 
                 if (input == "1")
                 {
