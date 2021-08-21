@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jaspe\\Downloads\\AIE THISGS\\WEBSITES AND APPS\\Hello-Dungeon\\Hello Dungeon\\Hello Dungeon.csproj",
-      "projectName": "Hello Dungeon",
-      "projectPath": "C:\\Users\\Jaspe\\Downloads\\AIE THISGS\\WEBSITES AND APPS\\Hello-Dungeon\\Hello Dungeon\\Hello Dungeon.csproj",
+      "projectUniqueName": "C:\\Users\\Jaspe\\Downloads\\AIE THISGS\\WEBSITES AND APPS\\Hello-Dungeon\\Hello-Dungeon\\Hello-Dungeon\\Hello-Dungeon.csproj",
+      "projectName": "Hello-Dungeon",
+      "projectPath": "C:\\Users\\Jaspe\\Downloads\\AIE THISGS\\WEBSITES AND APPS\\Hello-Dungeon\\Hello-Dungeon\\Hello-Dungeon\\Hello-Dungeon.csproj",
       "packagesPath": "C:\\Users\\Jaspe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jaspe\\Downloads\\AIE THISGS\\WEBSITES AND APPS\\Hello-Dungeon\\Hello Dungeon\\obj\\",
+      "outputPath": "C:\\Users\\Jaspe\\Downloads\\AIE THISGS\\WEBSITES AND APPS\\Hello-Dungeon\\Hello-Dungeon\\Hello-Dungeon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jaspe\\AppData\\Roaming\\NuGet\\NuGet.Config",

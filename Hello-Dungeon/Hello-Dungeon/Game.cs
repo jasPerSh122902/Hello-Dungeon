@@ -113,17 +113,28 @@ namespace Hello_Dungeon
 
                 if (input == "1")
                 {
+                    Console.ReadKey();
+                    Console.ReadLine();
                     Console.WriteLine("You kill the innoccent creature and it dies painfully");
                     Console.WriteLine("You monster");
                 }
 
                 else if (input == "2")
                 {
+                    Console.ReadKey();
+                    Console.ReadLine();
                     Console.WriteLine("You are a good person but no it dies from a haret attack from you");
                     Console.WriteLine("You are still a good person though");
                 }
-            }
 
+                else
+                {
+                    Console.ReadKey();
+                    Console.ReadLine();
+                    Console.WriteLine("Incorrect! you sorry soul the big bollar is not yours for now");
+
+                }
+            }
         }
     }
 }
