@@ -8,9 +8,9 @@ namespace Hello_Dungeon
 
     namespace Hello_Dungeon
     {
-        class Program
+        class Game
         {
-            static void Main(string[] args)
+            public void run()
             {
                 //Health and Health Regon/ varables
                 string characterJob = "job";
@@ -147,3 +147,4 @@ namespace Hello_Dungeon
             }
         }
     }
+}
