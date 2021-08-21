@@ -142,9 +142,62 @@ namespace Hello_Dungeon
 
                     }
 
-                    Console.WriteLine("You walk and admire the view and know that your advenchure only just started");
+
                 }
+                Console.WriteLine("You walk and admire the view and know that your advenchure only just started");
+                for (int i = 0; i < 3; i++)
+                {
+
+                    //This is the second situation
+                    Console.WriteLine("But you see a suspicious looking deer you follow it.");
+                    Console.WriteLine("You waneder why it look so suspicious .");
+                    Console.WriteLine(" But you countinue to follow it but it starts to run ");
+                    Console.WriteLine("1.Do so you follow even more");
+                    Console.WriteLine("2. leave the suspicious deer to its own");
+                    Console.WriteLine(">");
+                    input = Console.ReadLine();
+
+
+                    if (input == "1")
+                    {
+                        Console.ReadKey();
+                        Console.ReadLine();
+                        Console.WriteLine("NEVER you say think that you put enough time you might as well");
+                        Console.WriteLine("CHARGE");
+                        Console.WriteLine("You see a shadow and think you got to be FUC");
+                        Console.WriteLine("The dragon sweeps and snaches the deer and you and the dragon lock eyes");
+                        Console.WriteLine("in horror you relieze you are dead, life is sad");
+                        Console.WriteLine("The dragon land and looks at you in discuse ");
+                        Console.WriteLine("Cowerd");
+                        Console.WriteLine("If flys away leaving you in a hobbled position ");
+                        Console.WriteLine("you sumble home in shame and fear of the dragon");
+                        Console.WriteLine("But you know you live one more day");
+                        break;
+                    }
+
+                    else if (input == "2")
+                    {
+                        Console.ReadKey();
+                        Console.ReadLine();
+                        Console.WriteLine("As you watch it the deer turns into a set of claws but that did not look \nright and so you look again but it was snached my a dragon -_- ");
+                        Console.WriteLine("oooo no");
+                        Console.WriteLine("you think of all the things that you did today and say nah and start running away but it did not seem to persue you");
+                        Console.WriteLine("You live a nother day");
+                        break;
+                    }
+
+                    else
+                    {
+                        Console.ReadKey();
+                        Console.ReadLine();
+                        Console.WriteLine("Incorrect! but realy you just had to didnt you  -_-");
+
+                    }
+
+                }
+                Console.WriteLine("The next day");
             }
+
         }
     }
 }
