@@ -151,7 +151,7 @@ namespace Hello_Dungeon
                     //This is the second situation
                     Console.WriteLine("But you see a suspicious looking deer you follow it.");
                     Console.WriteLine("You waneder why it look so suspicious .");
-                    Console.Write(" But you countinue to follow it but it starts to run ");
+                    Console.WriteLine(" But you countinue to follow it but it starts to run ");
                     Console.WriteLine("1.Do so you follow even more");
                     Console.WriteLine("2. leave the suspicious deer to its own");
                     Console.WriteLine(">");
